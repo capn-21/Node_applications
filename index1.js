@@ -1,3 +1,3 @@
 const math= require('./test');
 
-math(c);
+console.log(math());
