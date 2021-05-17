@@ -8,4 +8,3 @@ rename('./content/written.txt','rename.txt',(error)=>{
 
 console.log("file renamed");
 
-//it
