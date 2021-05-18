@@ -8,4 +8,3 @@ const halo =(nam)=>{
 
 halo('okmkar');
 halo(manjru)
-halo(om)

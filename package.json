@@ -1,0 +1,26 @@
+{
+  "name": "Node_applications",
+  "version": "1.0.0",
+  "description": "",
+  "main": "append.js",
+  "dependencies": {
+    "ws": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capn-21/Node_applications.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/capn-21/Node_applications/issues"
+  },
+  "homepage": "https://github.com/capn-21/Node_applications#readme"
+}

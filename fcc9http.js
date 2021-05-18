@@ -1,17 +1,15 @@
 const ht=require('http');
 
 const derver=ht.createServer((req,res)=>{
-if(req.url=='/'){
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+
+if(req.url==='/'){
     res.end("main pageeeeeeeee")
 }
-if(req.url=='/about'){
+if(req.url==='/about'){
     res.end("this is the about page")
 }
-res.end(`
-<h1>error :69</h1>
-<h3> we cannot find the page your looking for</h3>
-<a href="/">click to go back to home page</a>
-`)
+res.end(`cant find what your are lookinhg for`)
 })
 
-derver.listen(5000)
+derver.listen(8000)
