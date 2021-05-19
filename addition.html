@@ -1,0 +1,27 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body ng-app="myapp">
+    <div ng-controller="add">
+1st number<input type="number" ng-model="a"><br>
+2nd number<input type="number" ng-model="b">
+
+<h1>[{{a}}] +
+    [{{b}}] ={{a+b}}
+</h1>
+
+    </div>
+
+
+
+
+
+    <script>
+        angular.module("myapp",[])
+.controller("add",function($scope){
+$scope.a;
+$scope.b;
+})
+
+    </script>
+</body>
+</html>
