@@ -1,10 +1,10 @@
 //modules
 
-const manjru='meow';
+const manjru='meowqwwqw';
 
 const halo =(nam)=>{
     console.log(`my name is ${nam}`);
 }
 
-halo('okmkar');
+halo('arsss');
 halo(manjru)

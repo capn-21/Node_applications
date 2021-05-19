@@ -6,9 +6,7 @@
   "dependencies": {
     "ws": "^3.3.2"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
