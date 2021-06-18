@@ -1,16 +1,20 @@
-function fact(){
-var n=4;
+function fact(inp){
+
     var f=1;
 
-    for(var int=1;int<=n;int++){
+    for( var i=1;i<=inp;i++){
+        f=f*i;
 
-        f=f*int;
-
-      
     }
-    console.log(f);
-    
+
+    console.log(` the factorial of ${inp} is${f}`);
+
+
+
 
 }
 
-fact();
+
+fact(56);
+
+module.exports=fact;

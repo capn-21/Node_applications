@@ -8,7 +8,7 @@ var ans;
 
 //area(3);
 
-function circ(r){
+function circumference(r){
     var c;
        c = 2*3.14*r;
     
@@ -17,4 +17,4 @@ function circ(r){
     }
     
 
-    circ(3);
+ module.exports={area,circumference}
